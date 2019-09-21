@@ -5,7 +5,6 @@ layout: default
 
 <div class="home">
 <span>{{ posts_count }}</span>
-  {% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
