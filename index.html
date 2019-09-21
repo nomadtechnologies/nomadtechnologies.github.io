@@ -4,10 +4,10 @@ layout: default
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
+<span>{{ posts_count }}</span>
   {% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
-	    <span>{{ posts_count }}</span>
         <div class="post py3">
           <p class="post-meta">
 	    {% if site.date_format %}
