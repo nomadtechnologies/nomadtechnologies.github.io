@@ -111,6 +111,7 @@ text:
 
 # Build settings
 markdown:     kramdown
+encoding: utf-8
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
