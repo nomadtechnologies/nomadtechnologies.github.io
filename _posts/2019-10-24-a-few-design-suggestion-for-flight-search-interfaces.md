@@ -6,22 +6,21 @@ categories:
 author: Afra Melia
 ---
 
-This is my very first UX project and is about flight search engine modifications. It helps to find a cheaper flight after choosing different dates on the calendar, giving a better view of rates and dates. This modification is made for this people who are looking for cheap flight without
-having to look day per day, something that is very long and tedious, ending up with frustrating user specially if he found that is he had chook other dates the flight could have been lot more cheaper.
+This article investigates ways in which booking interfaces can be improved. In this particular project we choose to focus on flight booking interfaces.
+ <!-- It helps to find a cheaper flight after choosing different dates on the calendar, giving a better view of rates and dates. This modification is made for this people who are looking for cheap flight without having to look day per day, something that is very long and tedious, ending up with frustrating user specially if he found that is he had choose other dates the flight could have been lot more cheaper. -->
 
 ## The Problem
-Imagine a situation where you are looking to take a short holiday or planning to visit some family abroad and want to book a flight but you wanted it to be cheap and you are quite flexible with dates, you go to a flight search and start looking for a flight, you go day per day to look for the flight that is cheap on the way you going and then again the same process for the day you coming back, it took you may be hours or even days because you are not sure
-or the prices were not that cheap. Ending up buying the ticket and then you find out that someone else bought it cheaper just with in a different date range. It is frustrating and annoying.
-
+Imagine a situation in which you are looking to take a short holiday or planning to visit family abroad and want to book a flight. You want the flight to be cheap and you're quite flexible with dates. You go to look for tickets on the relevant website (e.g. Skyscanner or Ryanair) and start looking for a flight. For the days you specify the website retrieves tickets that are way beyond your budget, so you go back to enter in new dates and continue this process indefinitely until you manage to find your ticket.
+This process is clearly tedious and frustrating. What we propose below is an attempt to remedy some of these issues.
 
 ## The Solution
-These project comes with a different search system where after you choose where you want to go it shows a calendar with prices where once you choose the day you want to flight it shows the prices for the way back, so you have the all vision of the prices without having to search day by day. In addition to these it can save all the choosing dates with the prices so you can
-compare and choose the one that suits you best.
+The solution is simple. We propose allowing the user to specify a range of possible dates as well as a minimum and maximum budget and then retrieving a sorted list of tickets within the date range. We also allow the user to view these tickets via a calendar grid. In summary this enables the user to view all of the prices without having to search day by day.
 
 ## Interviews
-The first step on this case study was interviewing some regular flight search users, in this case I interviewed 3 people aged between 20/30.
-Few things that they had in common was the love to travel as well as having family abroad they like to visit regularly so they normally will look for cheap flights and better if they are direct flights with a well-known flight company something else that I have noticed is that they will look for flights months in advance to get a cheaper flights specially on holidays times.
-So I picked some important goals for the user and sort them from more important to less important.
+The first step was interviewing some regular flight search users, in this case I interviewed three people aged between 20-30.
+Few things that they had in common was the love of travel as well as having family abroad they liked to visit regularly. They normally look for cheap flights and better still if they manage to secure direct flights with a well-known airline carrier. Something else that I have noticed is that they look for flights months in advance in an attempt to get cheaper flights especially if they intend to travel during the holiday seasons.
+
+So I picked some important goals for the user and sorted them from most important to least important.
 1.	Searching for the cheapest flight.
 2.	Looking for best dates to fly.
 3.	Being able to set a budget in the search engines.
@@ -35,23 +34,23 @@ After the interviews I was able to create a user persona.
 pic
 ## Wireframes
 The first step I took to create the app was to draw some wireframes.
-Once I was happy with the wireframes I asked for feedback before starting with the prototype, these way its more easy
-since I just can fix the wireframe and not to wait until the prototype, that will have taken more time.
+Once I was happy with the wireframes I asked for feedback before starting with the prototype, this way it means
+I can fix the wireframe and not to wait until the prototype in case of an error.
 The final wireframe:
 pic
 ## Prototype
 Once the wireframes were done I started with the prototype of the final product that will look like these.
 pic
 
-![]("bath.png")
+![pic](bath.png)
 
-## Conclusion
-At the end we have an flight search app that the user just have to fill in the information required like destination, budget they are able to spend and the days the user will travel, the app will look for the best flight taking in count all the user requirements.
+
+
+## Features
+At the end we have an flight search interface that the user just have to fill in the information required like destination, budget they are able to spend and the days the user will travel, the app will look for the best flight taking in count all the user requirements.
 It will show a scrolling option where the first option will be the cheaper as well as the option the see it on a calendar so he can have a better look of the options and choose the one that suits him best.
-These way will be a lot more quicker and efficient snice the user will not have to calculate the total amount of the flight cost, will be clear total amount without any extra surprises and will not miss any better option.
-Once the user choses the flight we added and option of making a picture of the passport so the user dont have to go through the pain of filling all the boxes it will automatically be filled in and same with the payment method. These way will be quicker and secure because will not have to worry about making any mistake that might be charged if you want to rectify it later like a lot of companies do.
+These way will be a lot more quicker and efficient since the user will not have to calculate the total amount of the flight cost, will be clear total amount without any extra surprises and will not miss any better option.
+Once the user choses the flight we added and option of making a picture of the passport so the user don't have to go through the pain of filling all the boxes it will automatically be filled in and same with the payment method. These way will be quicker and secure because will not have to worry about making any mistake that might be charged if you want to rectify it later like a lot of companies do.
 
 ## Summary
-These Project started as a assignment of The Gymnasium online UX course but when I made the interviews I realized that was an important matter for a lot of users so I decided to do it a first UX personal project.
-Since it was my first ever UX projects all the steps were a bit challenging specially the interviews, I was not sure if I was doing the right questions or I was pressuring the user.
-Trying to solve the problem implementing all the user goal was challenging as well it took a lot of time and thinking to come with what I think is the proper solution trying to make the usability off the app easy and quick for the user.
+This project started as an assignment taken from The Gymnasium online UX course (url) but when I conducted the interviews I realised that it was an important matter for a lot of users so I decided to do undertake it as a real first UX personal project. The challenges I found were mainly around was fitting all of the search results neatly into a single viewport. I chose to go with the calendar format because it is most familiar to most users. In summary I would wish to see this feature implemented on a lot of sites as I think it would be a great time-saver.
