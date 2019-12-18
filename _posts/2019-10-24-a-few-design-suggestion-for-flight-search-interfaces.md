@@ -42,7 +42,7 @@ pic
 Once the wireframes were done I started with the prototype of the final product that will look like these.
 pic
 
-![pic](images/bath.png)
+![pic](/assets/images/bath.png)
 
 
 
