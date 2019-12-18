@@ -43,7 +43,7 @@ pic
 Once the wireframes were done I started with the prototype of the final product that will look like these.
 pic
 
-![Pic]("bath.png")
+![]("bath.png")
 
 ## Conclusion
 At the end we have an flight search app that the user just have to fill in the information required like destination, budget they are able to spend and the days the user will travel, the app will look for the best flight taking in count all the user requirements.
