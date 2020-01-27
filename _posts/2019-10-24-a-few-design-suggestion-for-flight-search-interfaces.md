@@ -32,7 +32,7 @@ So I picked some important goals for the user and sorted them from most importan
 ## Personas
 After the interviews I was able to create a user persona.
 
-![pic](/assets/images/Robiepersona.png){: width="300px"}
+![pic](/assets/images/Robiepersona.png){:width="300px"}
 
 ## Wireframes
 The first step I took to create the app was to draw some wireframes.
